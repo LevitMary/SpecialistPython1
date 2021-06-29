@@ -8,3 +8,9 @@
 # Например, 1 корова, 2 коровы, 5 коров, 125 коров.
 
 # TODO: your code here
+n = int(input("n: "))
+m = int(input("m: "))
+k = int(input("k: "))
+if k != n * m  and n % k==0  or m % k==0:
+    print("YES")
+else:print("NO")
