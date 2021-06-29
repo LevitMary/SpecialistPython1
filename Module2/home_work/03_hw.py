@@ -29,3 +29,7 @@
 # 20 199.80 Rub.
 
 # TODO: your code here
+x = float(input("Введите стоимость единицы товара: "))
+
+for i in range(1, 21):
+      print(i,x * i,"Rub")
