@@ -6,3 +6,11 @@ import random
 numbers = []
 # print(random.randint(10, 20))  # раскомментируйте, чтобы посмотреть работу функции randint
 # TODO: your code here
+
+import random
+
+n = int(input("Введите число элементов: "))
+for i in range(n):
+    n = random.randint(10, 20)
+    print(n)
+    i += 1
