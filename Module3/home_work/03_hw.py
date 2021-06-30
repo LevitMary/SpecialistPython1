@@ -2,3 +2,10 @@
 # Вывести на экран сумму всех положительных элементов кратных двум.
 
 # TODO: your code here
+my_list = [4, 13, 11, 19, 17]
+summa = 0
+for n in my_list:
+    if n > 0 and n % 2 == 0:
+        summa = summa + n
+
+print(summa)
